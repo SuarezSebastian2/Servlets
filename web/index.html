@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="POST" action="Servlet1" style="background-color: cyan;margin-top: 16%;padding-top: 3px;margin-left: 16%;margin-right: 16%;border-radius: 3%;border: 5px solid chartreuse;">
+            <div id="content1" style="margin-left: 23%; margin-top: 5%;">
+                <label for="productoP" style="font-size: 200%; " >Nombre del Producto</label>
+                <input type="text" name="nameP" required="required" id="nameP" style=" color: green; font-family:monospace; font-size: 200%;border-color: green; width: 170px;border-radius: 3%"/>
+                <br>
+            </div>
+            <div id="content2" style="margin-left: 23%;">
+                <br>
+                <label for="precioP" style="font-size: 200%;">Precio del Producto</label>
+                <span style="font-size: 180%;position: absolute; margin-left: 17px; margin-top: 3px;">$</span>
+                <input type="number" name="productoPrecio" max="9999999" step="any" required="required" style="color: green; font-family:monospace; font-size: 200%;padding-left: 14px;margin-left: 14px; border-color: green; width: 160px"><br>
+                <input type="submit" id="calcular"style=" margin-bottom: 0px;font-size: 150%;color: black; background-color: chartreuse; border: 1px solid green; border-radius: 5%; margin-left: 150px; margin-top: 15px" value="Calcular Iva" />
+                <h6 style="padding-bottom: 20px;margin-bottom: 20px;margin-top: 0%;margin-left: 155px;">(El iva corresponde al 19%)</h6>
+            </div>
+        </form>
+    </body>
+</html>
